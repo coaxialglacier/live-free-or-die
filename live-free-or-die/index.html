@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Free or Die — Game Concept</title>
+    <meta
+      name="description"
+      content="Concept notes for Live Free or Die: a third-person American Revolutionary War action game."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="stars" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="topbar-brand" href="#top">LIVE FREE OR DIE</a>
+      <nav class="topbar-nav" aria-label="Primary">
+        <a href="#pitch">Pitch</a>
+        <a href="#patriots">Patriots</a>
+        <a href="#play">Play</a>
+        <a href="#history">History</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Live Free or Die">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="assets/hero-live-free-or-die.png"
+            alt=""
+            class="hero-image"
+          />
+          <div class="hero-wash"></div>
+        </div>
+
+        <div class="hero-copy">
+          <h1 class="hero-title">
+            <span class="hero-title-line">Live Free</span>
+            <span class="hero-title-line hero-title-or">or Die</span>
+          </h1>
+          <p class="hero-lede">
+            A third-person American Revolutionary War action game. Three
+            patriots. One cause. History that bends toward liberty.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#pitch">Read the Concept</a>
+            <a class="btn btn-ghost" href="#patriots">Meet the Trio</a>
+          </div>
+        </div>
+
+        <div class="hero-stripe" aria-hidden="true"></div>
+      </section>
+
+      <section class="section cause" id="pitch">
+        <div class="section-inner">
+          <p class="eyebrow">The Pitch</p>
+          <h2>Pro-American. Action first.</h2>
+          <p class="section-lede">
+            You play the people who make 1776 happen. Not a first-person
+            shooter. Not a strategy sim with occasional fights. Third-person
+            action in colonial streets, forests, docks, and battlefields —
+            starting before the war begins.
+          </p>
+          <div class="info-stack">
+            <p>
+              <strong>Genre:</strong> Third-person action in the Assassin’s
+              Creed / Ghost of Tsushima family — melee, heavy flintlocks,
+              rooftop chases, crowd stealth, and big set-piece battles.
+            </p>
+            <p>
+              <strong>Tone:</strong> Gritty, proud, cinematic. Liberty as
+              something people risk everything for. Patriots as the
+              protagonists. The Crown as real pressure, not a cartoon.
+            </p>
+            <p>
+              <strong>Fantasy:</strong> You are not watching the Revolution.
+              You are the kind of person who starts it, spreads it, and wins
+              it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section patriots" id="patriots">
+        <div class="section-inner patriots-head">
+          <p class="eyebrow">The Trio</p>
+          <h2>You control all three.</h2>
+          <p class="section-lede">
+            Same campaign. Different fighting languages. Switch between them
+            as the colonies catch fire — sabotage one night, saber work the
+            next, a wilderness ambush after that.
+          </p>
+        </div>
+
+        <div class="patriot-stage" data-patriot-stage>
+          <div class="patriot-tabs" role="tablist" aria-label="Patriots">
+            <button
+              class="patriot-tab is-active"
+              role="tab"
+              aria-selected="true"
+              aria-controls="panel-oneida"
+              id="tab-oneida"
+              data-patriot="oneida"
+            >
+              Oneida Resister
+            </button>
+            <button
+              class="patriot-tab"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-dockhand"
+              id="tab-dockhand"
+              data-patriot="dockhand"
+            >
+              Colony Dockhand
+            </button>
+            <button
+              class="patriot-tab"
+              role="tab"
+              aria-selected="false"
+              aria-controls="panel-traitor"
+              id="tab-traitor"
+              data-patriot="traitor"
+            >
+              British Traitor
+            </button>
+          </div>
+
+          <div class="patriot-panels">
+            <article
+              class="patriot-panel is-active"
+              id="panel-oneida"
+              role="tabpanel"
+              aria-labelledby="tab-oneida"
+              data-panel="oneida"
+            >
+              <div
+                class="patriot-panel-bg patriot-panel-bg-forest"
+                aria-hidden="true"
+              ></div>
+              <div class="patriot-panel-copy">
+                <h3>Oneida Resister</h3>
+                <p>
+                  Raised in the world of the Iroquois Confederacy nations that
+                  stood against the British. Tomahawk, ambush tempo, and
+                  “reading the land” abilities — until the forest itself
+                  fights with you.
+                </p>
+                <ul>
+                  <li>Woodland flanking, vanish steps, sudden violence</li>
+                  <li>Tomahawk / knife pressure, thrown steel between closes</li>
+                  <li>Break redcoat formations by refusing their ground</li>
+                </ul>
+              </div>
+            </article>
+
+            <article
+              class="patriot-panel"
+              id="panel-dockhand"
+              role="tabpanel"
+              aria-labelledby="tab-dockhand"
+              data-panel="dockhand"
+              hidden
+            >
+              <div
+                class="patriot-panel-bg patriot-panel-bg-dock"
+                aria-hidden="true"
+              ></div>
+              <div class="patriot-panel-copy">
+                <h3>Colony-Born Dockhand</h3>
+                <p>
+                  Scrappy brawler-marksman. Farm muscle, dock scars, and
+                  little muskets hidden in his clothes. The ordinary colonist
+                  who becomes a legend because he will not leave the street.
+                </p>
+                <ul>
+                  <li>Fists, rifle butts, bayonet rushes</li>
+                  <li>Concealed pistols and quick, dirty shots</li>
+                  <li>Crowd surges — fight hard enough and neighbors join</li>
+                </ul>
+              </div>
+            </article>
+
+            <article
+              class="patriot-panel"
+              id="panel-traitor"
+              role="tabpanel"
+              aria-labelledby="tab-traitor"
+              data-panel="traitor"
+              hidden
+            >
+              <div
+                class="patriot-panel-bg patriot-panel-bg-saber"
+                aria-hidden="true"
+              ></div>
+              <div class="patriot-panel-copy">
+                <h3>British Traitor</h3>
+                <p>
+                  Redcoat-trained, then turned. Precise saber fighting and
+                  insight into enemy movements. He knows their drill, their
+                  tells, and the exact second a volley line fails.
+                </p>
+                <ul>
+                  <li>Parry-riposte saber school, controlled pistol duels</li>
+                  <li>Reads British tactics and punishes reloads</li>
+                  <li>Highest skill ceiling — cold, drilled, lethal</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section play" id="play">
+        <div class="section-inner">
+          <p class="eyebrow">What You Do</p>
+          <h2>Hunt. Sabotage. Battle. Obey Washington’s shadow orders.</h2>
+          <p class="section-lede">
+            You and your people move through the colonies doing the dirty,
+            glorious work that makes a country possible.
+          </p>
+          <div class="history-points">
+            <p>
+              <span>Hunt</span> Loyalists, informants, and enemies of the
+              cause through alleys and taverns.
+            </p>
+            <p>
+              <span>Fight</span> redcoat patrols in sudden street scraps and
+              full battlefield collisions.
+            </p>
+            <p>
+              <span>Sabotage</span> powder stores, docks, messengers, and
+              supply lines before dawn.
+            </p>
+            <p>
+              <span>Serve</span> on secret missions for George Washington —
+              the quiet jobs that never make the painting.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section history" id="history">
+        <div class="history-flag" aria-hidden="true"></div>
+        <div class="section-inner">
+          <p class="eyebrow">The Patriotic Smudge</p>
+          <h2>Broadly historical. Freedom-empowered mythos on purpose.</h2>
+          <p class="section-lede">
+            The game stays close enough to history to feel true — then lets
+            you shove it. Delay the war. Start it early. Push hard enough and
+            the timeline tips from record into American myth: bigger stands,
+            braver rides, cleaner victories, ideals embodied at full volume.
+          </p>
+          <div class="info-stack">
+            <p>
+              <strong>Allowed smudges:</strong> tip a near-loss into a
+              hard-won win; expose a Loyalist plot earlier; rally a hesitant
+              town; get the alarm farther by dawn; help the right hero arrive
+              in time.
+            </p>
+            <p>
+              <strong>Locked truth:</strong> America is the righteous fight.
+              The Revolution is worth winning. Smudges make the founding more
+              legendary — they do not flip the moral center of the story.
+            </p>
+            <p>
+              <strong>Belief / Spark:</strong> local patriotic fervor matters.
+              Win fights but lose the people, and the street goes quiet. Win
+              the people, and militias rise mid-mission.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section timeline" id="timeline">
+        <div class="section-inner">
+          <p class="eyebrow">Campaign Shape</p>
+          <h2>It starts before the shot heard round the world.</h2>
+          <div class="timeline-grid">
+            <article class="timeline-item">
+              <h3>Act I — Before the Shot</h3>
+              <p>
+                1765–1775. Stamp Act unrest, committees of correspondence,
+                Boston under pressure, smuggling, informants. You build
+                legend, allies, and public will while the Crown still thinks
+                it owns the morning.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <h3>Act II — The Break</h3>
+              <p>
+                1775–1777. Lexington energy, siege of Boston, Declaration
+                momentum. Your pre-war choices decide how the war ignites —
+                early, late, louder, bloodier — not whether America deserves
+                to win.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <h3>Act III — Forging a Nation</h3>
+              <p>
+                1777–1783. Valley Forge grit, turning points, Yorktown
+                payoff. The smudges get bolder. History remembers the cause
+                at its bravest because you made it so.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section systems" id="systems">
+        <div class="section-inner">
+          <p class="eyebrow">Combat Fantasy</p>
+          <h2>Origin is your fighting language.</h2>
+          <p class="section-lede">
+            Background chooses how your hands work. The war is the sentence
+            you write with them.
+          </p>
+          <div class="info-stack">
+            <p>
+              <strong>Oneida Resister:</strong> ambush, mobility, burst
+              lethality. Terrain is a weapon.
+            </p>
+            <p>
+              <strong>Colony Dockhand:</strong> brawl, grit, hidden guns,
+              crowd surges. The street is a weapon.
+            </p>
+            <p>
+              <strong>British Traitor:</strong> precision, counters, duel
+              control, enemy-read abilities. Their manual is a weapon.
+            </p>
+            <p>
+              Shared tools across the campaign: musket-butt melee, bayonet
+              commitment, parkour over colonial rooftops, shipyards, church
+              steeples, and blending into patriot crowds.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section openers" id="openers">
+        <div class="section-inner">
+          <p class="eyebrow">Cold Opens by Origin</p>
+          <h2>Three ways the legend begins.</h2>
+          <div class="history-points">
+            <p>
+              <span>Oneida</span> Night scout along a river path. A British
+              patrol never makes the report.
+            </p>
+            <p>
+              <span>Dockhand</span> Tax raid gone loud in Boston. Fists
+              first, muskets second, rooftops after.
+            </p>
+            <p>
+              <span>Traitor</span> Walk out of a redcoat camp with their
+              orders in your coat — and blood on the last man who tried to
+              stop you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section join" id="join">
+        <div class="section-inner join-inner">
+          <p class="eyebrow">Working Title</p>
+          <h2>Live Free or Die</h2>
+          <p class="section-lede">
+            Already American scripture. Short enough for a cover. Hard enough
+            for an action game. Optional banner line if we want franchise
+            room: <em>American Democracy</em>.
+          </p>
+          <div class="info-stack">
+            <p>
+              <strong>One-line pitch:</strong> Control three patriots in a
+              third-person action war that starts before Lexington —
+              sabotage, hunt Loyalists, outfight redcoats, and push history
+              into the freedom story America tells when it’s at its bravest.
+            </p>
+            <p>
+              <strong>Status:</strong> Temporary concept page. Catching the
+              idea while it’s hot.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Live Free or Die — concept notes from a design jam. Not a shipped
+        game. Not affiliated with any studio.
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
