@@ -2,7 +2,9 @@
 
 Simple story spine for missions currently in design. High-level only.
 
-Related docs: [`../Live-Free-Or-Die-Concept.md`](../Live-Free-Or-Die-Concept.md) · [`historic-lore.md`](historic-lore.md) · [`dialogue-trees.md`](dialogue-trees.md)
+Related docs: [`../Live-Free-Or-Die-Concept.md`](../Live-Free-Or-Die-Concept.md) · [`story-opening.md`](story-opening.md) · [`historic-lore.md`](historic-lore.md) · [`dialogue-trees.md`](dialogue-trees.md)
+
+> **Opening rewrite:** The campaign now starts at Lexington with **Elias Fitch** alone; the trio forms later. See [`story-opening.md`](story-opening.md). Older beats below may lag that structure until reconciled.
 
 ---
 
