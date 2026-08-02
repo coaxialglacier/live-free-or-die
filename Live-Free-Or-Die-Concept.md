@@ -2,6 +2,8 @@
 
 A third-person American Revolutionary War action game. Three patriots. One cause. History that bends toward liberty.
 
+Working docs: [`docs/plot.md`](docs/plot.md) (story spine) · [`docs/historic-lore.md`](docs/historic-lore.md) (historical grounding)
+
 ## The Pitch
 
 Pro-American. Action first.
