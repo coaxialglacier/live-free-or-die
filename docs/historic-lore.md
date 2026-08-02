@@ -2,7 +2,7 @@
 
 Historical grounding for missions, characters, and dialogue. Broadly historical; the game may smudge outcomes, not the moral center.
 
-Related docs: [`../Live-Free-Or-Die-Concept.md`](../Live-Free-Or-Die-Concept.md) · [`plot.md`](plot.md)
+Related docs: [`../Live-Free-Or-Die-Concept.md`](../Live-Free-Or-Die-Concept.md) · [`plot.md`](plot.md) · [`dialogue-trees.md`](dialogue-trees.md)
 
 ---
 

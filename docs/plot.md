@@ -2,7 +2,7 @@
 
 Simple story spine for missions currently in design. High-level only.
 
-Related docs: [`../Live-Free-Or-Die-Concept.md`](../Live-Free-Or-Die-Concept.md) · [`historic-lore.md`](historic-lore.md)
+Related docs: [`../Live-Free-Or-Die-Concept.md`](../Live-Free-Or-Die-Concept.md) · [`historic-lore.md`](historic-lore.md) · [`dialogue-trees.md`](dialogue-trees.md)
 
 ---
 
@@ -68,6 +68,8 @@ Trio returns with Kalha to the Oneida town (working location: **Kanonwalohale** 
 - Marked as men who showed up for Oneida kin, not for pay.
 - Sets standing for the council: guests with blood-credit, not recruiters with a pitch.
 
+Full interactive lines: [`dialogue-trees.md`](dialogue-trees.md) (nodes `W1`–`W-END`).
+
 ---
 
 ## Beat 3 — Council fire (interactive dialogue)
@@ -76,21 +78,23 @@ Trio returns with Kalha to the Oneida town (working location: **Kanonwalohale** 
 
 **Scene:** Interactive dialogue sequence at council. Sachems, warriors, clan mothers (“female governesses”). Kirkland may sit at the edge. Arguments for neutrality, Crown, and Colonies all get air.
 
+**Full tree:** [`dialogue-trees.md`](dialogue-trees.md) (nodes `C1`–`C-END`).
+
 **Player tools:** Tag-team lines by character
 - Kalha — kinship, land, what the Catawba fight proved
 - Dockhand — Crown never loved the common man; liberty spreads
 - Traitor — how the King uses Native allies and discards them; military reality
 
-**Design rule:** Not a single speech check. Choices shift national **Belief / Spark** and set alliance temperature (patriotic smudge allowed on timing/intensity; sovereignty and stakes stay honest).
+**Design rule:** Not a single speech check. Choices shift **Trust** and **Cause** (plus Kalha personal standing). Patriotic smudge allowed on timing/intensity; sovereignty and stakes stay honest.
 
 **Outcomes (working)**
 | Result | Meaning |
 |--------|---------|
-| Strong, respectful win | Oneida lean Patriot earlier / louder; full later support |
-| Partial / cautious | Personal debt to Kalha holds; national help is thinner |
-| Botched / colonial arrogance | Cooler nation; later ambush lacks full Oneida strength |
+| Full Alliance | Oneida lean Patriot; full later ambush support |
+| Personal Debt | Kalha’s kin only; thinner help |
+| Cool Peace | Stew, not a war pledge; trio alone in Beat 4 |
 
-**Closing image (working):** Council fire covered so each nation may walk its own road — and the Oneida choose the road with the trio’s footprints on it.
+**Closing image (working):** Council fire covered so each nation may walk its own road — and (on a strong path) the Oneida choose the road with the trio’s footprints on it.
 
 ---
 
@@ -128,7 +132,7 @@ Trio returns with Kalha to the Oneida town (working location: **Kanonwalohale** 
 
 - [ ] Lock Catawba as coming *north* (defend Oneida country) vs Oneida striking *south* (join their offensive).
 - [ ] Finalize Kalha’s Oneida name with language review.
-- [ ] Write full council dialogue tree (branches per trio member).
+- [x] Write full council dialogue tree (branches per trio member). → [`dialogue-trees.md`](dialogue-trees.md)
 - [ ] Place Beats 1–4 on the Act I–III timeline (1775 council suggests late Act I / early Act II).
 - [ ] Name the escaping British officer if the ambush leaks.
 - [ ] Name Dockhand and Traitor (still archetypes in concept doc).
