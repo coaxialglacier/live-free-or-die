@@ -2,7 +2,7 @@
 
 A third-person American Revolutionary War action game. Three patriots. One cause. History that bends toward liberty.
 
-Working docs: [`docs/story-opening.md`](docs/story-opening.md) (Lexington-first opening) · [`docs/plot.md`](docs/plot.md) (story spine) · [`docs/historic-lore.md`](docs/historic-lore.md) (historical grounding) · [`docs/dialogue-trees.md`](docs/dialogue-trees.md) (Oneida welcome + council) · [`docs/hideout-and-underground.md`](docs/hideout-and-underground.md) (hideout, network, raid loop)
+Working docs: [`docs/story-opening.md`](docs/story-opening.md) (Lexington-first opening) · [`docs/plot.md`](docs/plot.md) (story spine) · [`docs/historic-lore.md`](docs/historic-lore.md) (historical grounding) · [`docs/dialogue-trees.md`](docs/dialogue-trees.md) (Oneida welcome + council) · [`docs/hideout-and-underground.md`](docs/hideout-and-underground.md) (hideout, network, raid loop) · [`docs/gun-sounds.md`](docs/gun-sounds.md) (musket & flintlock audio)
 
 ## The Pitch
 
