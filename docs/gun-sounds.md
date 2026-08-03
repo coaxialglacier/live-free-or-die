@@ -2,7 +2,7 @@
 
 Working design for musket and flintlock pistol audio: the shot as a character, cool over museum, and gun voices that change as trophies get better.
 
-Related: [`../Live-Free-Or-Die-Concept.md`](../Live-Free-Or-Die-Concept.md) · [`hideout-and-underground.md`](hideout-and-underground.md) (loadout as trophy)
+Related: [`../Live-Free-Or-Die-Concept.md`](../Live-Free-Or-Die-Concept.md) · [`hideout-and-underground.md`](hideout-and-underground.md) (loadout as trophy) · [`combat.md`](combat.md) (heart-tempo: hang and reload squeeze under pressure)
 
 ---
 
@@ -28,6 +28,75 @@ Every player fire is a layered event, mixed as one hit:
 6. **Ring-off** — ears sing for a beat; world ducks under it
 
 The flint and pan are what make it a flintlock instead of “generic old gun.” The charge is what makes it the coolest gun in the room.
+
+---
+
+## The hang: flint down → pan fire → boom
+
+The shot is not one sample. It is a short, violent process the player gets to feel.
+
+### Timing law
+
+**Finger trigger → lock falls: ~84ms.**  
+That is the mechanical truth from pull to the gun’s machinery committing. Keep it as a design anchor: the click answers the finger almost immediately. The fantasy lives in what happens *after* the flint kisses.
+
+**Flint kiss → pan catches → main charge:** variable.  
+This is the hang. How long the priming powder actually burns in the pan before the touch-hole sends fire into the barrel. This window is the toy. Different guns wear different hangs. Better locks can tighten it, wild farm sticks can stretch it, wet weather can smear it. The player should learn their gun’s hang the way they learn a reload *snick*.
+
+### The fantasy beat
+
+Spell it in the body, not the UI:
+
+**click — clench — ffffppp — BOOM**
+
+| Beat | What it is | Feel |
+|------|------------|------|
+| **click** | Trigger / sear / flint falling (~84ms from finger) | Private, mechanical, “I did this” |
+| **clench** | The tiny held breath after the lock commits | Shoulders lock. World narrows. |
+| **ffffppp** | Pan fire: bright, close, hungry priming hiss | The gun is *working*. Process, not pop. |
+| **BOOM** | Main charge answers | Thunder. The sentence ends. |
+
+Play the middle. The *ffffppp* is where flintlock romance lives. Stretch or compress that pan hang by weapon voice, and the same stack becomes a farm stick’s messy sermon or an officer lock’s cold punctuation.
+
+Combat also squeezes this envelope — ceremonial first pulls stretch the hang; the thick of a fight compresses it. Heart-tempo ownership lives in [`combat.md`](combat.md). Audio still sells every syllable.
+
+### Why we play it up
+
+Modern guns chirp and spit in one syllable. Ours get a whole short opera before the boom. The hang sells:
+
+- This is a real process of fire traveling through a machine
+- Your prize lock has a personality you can hear in the delay
+- Combat still owns the mix: the hang is short enough to stay lethal, long enough to taste
+
+This is not reload downtime. The player already pulled. The gun is mid-sentence. Camera hitch, pan light on the face, that close fizz in the ear, then the street punches back.
+
+### Variable by gun (same DNA, different hang)
+
+Always: flint → pan → charge.  
+Never the same hang for every stick.
+
+- **Farm / militia:** longer, messier *ffffppp*; boom arrives like it had to think
+- **Cell rebuild:** tighter hang; pan and charge shake hands cleanly
+- **Crown issue:** short military hang; drilled, cold, almost rude in how fast the boom answers
+- **Officer / prize:** prettier pan, proud hang that still feels expensive, then richer boom
+- **Pistols:** snappier whole stack; less cathedral, more *click-ffff-crack* in your coat
+
+Trio accent can sit on top: Fitch dirties the clench, Traitor cleans the hang, Kalha leaves a hair more air before the boom so the forest can answer.
+
+### Design anchors
+
+- **84ms** = finger → lock/flint commitment (feel-instant mechanical answer)
+- **Pan hang** = the variable toy between flint-down and barrel fire
+- **Play the process** = click — clench — ffffppp — boom is the product fantasy for every fire
+- **Per-gun voice** includes hang length and pan character, not only boom EQ
+- Flash-in-the-pan stays rare spice: *ffffppp* that never finds the boom
+
+### Hard no’s for this beat
+
+- No collapsing flint/pan/charge into one modern bang
+- No identical hang on every musket
+- No hang so long it becomes “I was waiting” (that sin belongs to bad reload numbers)
+- No hiding the 84ms click under a delayed lock that feels laggy; the click answers the finger, then the pan does theater
 
 ---
 
@@ -122,6 +191,7 @@ Each weapon gets a small **voice kit**:
 
 - Flint kiss timbre (dry stone / bright steel / oily officer lock)
 - Pan flash length and brightness
+- **Hang length** (how long *ffffppp* holds before boom — the per-gun toy)
 - Main charge body (thin crack → chest boom → cathedral roll)
 - Smoke rush weight
 - Ready *snick* when a perfect reload seats
@@ -180,6 +250,7 @@ Coming home from a raid should include *hearing* what you stole.
 - No twenty guns that share one bounce sample with EQ presets so mild nobody notices
 - No thin “historically accurate” pops as the player hero sound
 - No burying flint/pan under a generic modern boom
+- No collapsing the hang into a single modern bang sample
 
 ---
 
@@ -187,3 +258,4 @@ Coming home from a raid should include *hearing* what you stole.
 
 1. Mute the HUD. Fire once in an empty street. If your shoulders jump and you want to do it again immediately, ship it. If it sounds like a history exhibit button, tear it up and stack it again.
 2. Play an early street scrap, then a late prize musket fight on mute-HUD audio only. If a friend can tell which era of your loadout they’re hearing, the ladder works. If they only notice enemies falling faster, we shipped numbers and forgot the toy.
+3. Mute the HUD. Fire a farm stick, then a prize lock. If you can feel *click — clench — ffffppp — boom* on both, and tell which gun by how the pan holds the breath before thunder, the hang is working.

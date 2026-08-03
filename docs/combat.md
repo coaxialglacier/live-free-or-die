@@ -181,6 +181,72 @@ Fitch fantasy: fire musket, pistol while the musket reload continues as belt/cra
 
 ---
 
+## Heart-tempo: the fight squeezes the gun
+
+The hang and the reload share one law:
+
+**Calm stretches the process. Panic compresses it.**
+
+First blood is ceremony. Mid-fight is survival grammar. The gun does not stay at museum pace once the street is screaming.
+
+Hang character and the *click — clench — ffffppp — boom* stack live in [`gun-sounds.md`](gun-sounds.md). Heart-tempo owns when that stack (and the reload) stretches or squeezes.
+
+### The first shot (or the first clean breath)
+
+When the fight is still a held breath — ambush setup, duel open, first pull from cover, that quiet before the world breaks — stretch the stack:
+
+**c l i c k — c l e n c h — f f f f p p p — B O O M**
+
+Almost agonizing. Extra air in the clench. Pan fire that takes its time being beautiful. The boom arrives like a verdict. This is where the flintlock fantasy gets to show off. The player should feel the whole machine work once, slow enough to love it.
+
+Not every shot forever. The *opening* shot of a scrap, or any beat where the game still has room to breathe.
+
+### In the thick
+
+Once you are in it — smoke up, coats closing, heart in the teeth — the same stack tightens:
+
+**click-clench-ffff-BOOM**
+
+Still flint → pan → charge. Still a process. Just shorter syllables. The ~84ms finger→lock answer stays honest; what compresses is the theater of the hang and the body’s reload. Combat does not delete the romance. It speaks faster.
+
+### Reload under heartbeat
+
+Same curve for hands.
+
+| State | Reload feel |
+|-------|-------------|
+| **Cold open / first breath** | Full ritual. Powder, ball, ram, prime readable. Proud *snick.* |
+| **In the fight** | Stages blur into swagger. Still inputs, less ceremony. |
+| **Heart-pounding / trying not to die** | Fastest reloads in the game. Fingers lie for you. Perfect-run and rage lanes live here on purpose. |
+
+The myth beat: **the fastest load of your life happens when you are about to lose it.**
+
+Not a UI buff named “adrenaline.” The fight itself is the metronome. Stay aggressive, stay in the smoke, stay one mistake from dead, and the musket keeps time with your pulse.
+
+### Ties to existing lanes
+
+- **Spark / Nerve / powder-heat:** aggression fills the toys; heart-tempo is the audio/feel twin of that
+- **Perfect-run reload:** sprinting through violence already speeds the seat — heart-tempo is why that fantasy is allowed
+- **Rage reload:** take a hit while loading, slam uglier and faster — peak heartbeat lane
+- **Hang by gun:** farm stick vs officer lock still have different pan character; combat only squeezes the whole envelope, it does not make every gun identical
+
+### Design anchors
+
+- **Stretch on the ceremonial pull** (first shot / cold open): hang and reload stages get room to perform
+- **Compress in the thick:** pan hang shortens, reload stages stack tighter, mix stays readable
+- **Peak speed = peak danger:** trying-not-to-die is when hands and lock are fastest
+- **Never erase the stack:** even at max tempo you still get click → pan → boom, just as a punch instead of a sermon
+- **84ms finger→flint** stays the mechanical floor; heart-tempo mostly owns pan hang, body performance, and reload duration
+
+### Hard no’s for this beat
+
+- No permanent slow-mo musket once the scrap is chaos
+- No “combat haste” that turns flintlocks into modern semi-auto
+- No fastest reloads awarded for camping behind a wall (heartbeat comes from pressure, not safety)
+- No stretch so long on first shot that the ambush dies of manners
+
+---
+
 ## Doom techniques → our versions
 
 ### Always push forward
@@ -283,15 +349,18 @@ Powder quality, patched barrels, British locks on colonial stocks: trophies and 
 
 | Beat | Feel target |
 |------|-------------|
-| Musket ready → fire | Instant, weighty |
+| Finger → flint commitment | ~84ms; click answers the finger |
+| Ceremonial first hang | Stretched *click — clench — ffffppp — boom*; almost agonizing |
+| Thick-of-fight hang | Compressed stack; still a process, never a modern chirp |
+| Musket ready → fire | Instant commitment, weighty boom (hang varies by gun + heart-tempo) |
 | Standard reload | Short action beat you can dance through |
-| Perfect reload | Fast enough to feel like swagger |
+| Perfect / heart-tempo reload | Fastest when pulse is highest; swagger under death |
 | Pistol draw → fire | Faster than thought, short range |
 | Volley telegraph | Long enough to read, short enough to scare |
 | Smoke useful window | Long enough for one smart decision |
 | Melee after shot | Should feel like the correct greedy choice |
 
-If QA ever says “I was waiting,” the number is wrong.
+If QA ever says “I was waiting,” the number is wrong — unless they meant the beautiful first-shot hang, in which case they felt the toy.
 
 ---
 
@@ -305,6 +374,8 @@ If QA ever says “I was waiting,” the number is wrong.
 - No enemy that is only a bullet sponge
 - No UI that makes reload feel like installing a driver
 - No “historical” 15–20 second authentic loads as default
+- No heart-tempo speed for players who camp in safety
+- No deleting the flint/pan hang when combat gets loud
 
 Authenticity lives in flint, smoke, kick, bayonet fear, volley drama.  
 It does not live in freezing the player.
@@ -316,6 +387,7 @@ It does not live in freezing the player.
 1. Hand the game to someone who loves action games and has never cared about black powder. If they say “I want to fire that thing again,” we won.
 2. Mute the HUD. Chain: shot → smoke flank → steal loaded musket → fire that → bayonet the sergeant → perfect-reload yours mid-sprint → shatter the reforming pair. If that chain feels natural, the product is working.
 3. If players say “cool, but I wish the gun was faster,” we accidentally shipped a museum.
+4. Open a fight with one stretched *click — clench — ffffppp — boom*. Thirty seconds later, under a volley with smoke in your teeth, snap a heart-tempo reload and a compressed hang into a coat’s chest. If both feel like the same gun telling the truth at two different pulses, ship it.
 
 ---
 
