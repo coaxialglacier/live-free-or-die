@@ -136,6 +136,7 @@ Player weapons get the hero mix. Enemy line fire gets terrifying chorus energy. 
 
 Sounds people should want to imitate:
 
+- **The hang** — *click — clench — ffffppp — boom* as a process you can taste; different per gun, stretched or squeezed by heart-tempo
 - **Perfect reload seat** — a tight wooden/metal *snick* that says “ready” better than any UI pip
 - **Bayonet after the boom** — shot decay still hanging when steel hits; thunder into violence
 - **Pan-only tease** — rare flash-in-the-pan: fizz, no boom, curse, steel anyway (spice, not a slap)
